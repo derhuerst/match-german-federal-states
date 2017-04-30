@@ -3,7 +3,7 @@
 	"description":  "Try to match a German federal state name with its ISO code.",
 	"version":      "0.1.0",
 	"main":         "index.js",
-	"files":        ["index.js", "states.json"],
+	"files":        ["index.js", "english-states.json", "german-states.json"],
 	"keywords":     ["german", "federal state", "name", "iso", "match", "search"],
 	"author":       "Jannis R <mail@jannisr.de>",
 	"homepage":     "https://github.com/derhuerst/match-german-federal-states",
