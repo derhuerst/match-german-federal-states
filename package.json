@@ -1,0 +1,24 @@
+{
+	"name":         "match-german-federal-states",
+	"description":  "Try to match a German federal state name with its ISO code.",
+	"version":      "0.1.0",
+	"main":         "index.js",
+	"files":        ["index.js", "states.json"],
+	"keywords":     ["german", "federal state", "name", "iso", "match", "search"],
+	"author":       "Jannis R <mail@jannisr.de>",
+	"homepage":     "https://github.com/derhuerst/match-german-federal-states",
+	"repository":   "derhuerst/match-german-federal-states",
+	"bugs":         "https://github.com/derhuerst/match-german-federal-states/issues",
+	"license":      "ISC",
+	"engines":      {"node": ">=6"},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"tape": "^4.6.3",
+		"tap-min": "^1.2.1"
+	},
+	"scripts": {
+		"test": "node test.js | tap-min",
+		"prepublishOnly": "npm test"
+	}
+}
