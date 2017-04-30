@@ -18,7 +18,18 @@ npm install match-german-federal-states
 ## Usage
 
 ```js
-todo
+const match = require('match-german-federal-states')
+
+// English
+match('Brandenburg') // BB
+match('rhineland palatinate') // RP
+match('baden-weurttemberg') // BW
+
+// German
+match('Brandenburg', 'de') // BB
+match('mecklenburg vorpommern', 'de') // MV
+match('neidersachsen', 'de') // NI
+match('thüringen', 'de') // TH
 ```
 
 
